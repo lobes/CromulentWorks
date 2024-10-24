@@ -2,4 +2,46 @@
 
 <PageTitle>Cromulent Works</PageTitle>
 
-<h1>Hello, world!</h1>
+<div class="centered-content">
+  <div class="main-content">
+    <h1>Cromulent Works</h1>
+
+    <p>"Making the thing do the thing since nineteen-dickaty-two."</p>
+
+    <p>Everything we make is Perfectly Acceptable.</p>
+  </div>
+
+  <p class="copyright">
+    © @DateTime.Now.Year Cromulent Works, Pty Ltd
+    <br />
+    If you can read this you don't need glasses.
+  </p>
+</div>
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    text-align: center;
+  }
+
+  .main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .copyright {
+    font-size: 0.3rem;
+    margin-top: 20px;
+  }
+</style>
