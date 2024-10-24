@@ -5,10 +5,11 @@
 <div class="centered-content">
   <div class="main-content">
     <h1>Cromulent Works</h1>
+    <hr class="line" />
 
-    <p class="quote">"Making the Thing do The Thing since nineteen-dickaty-two."</p>
+    <p class="quote">"making the Thing do The Thing since nineteen-dickaty-two"</p>
 
-    <p>Everything we make is Perfectly Acceptable.</p>
+    <p>Everything we make is Perfectly Acceptable.<br />Guaranteed.</p>
   </div>
 
   <p class="copyright">
@@ -62,6 +63,7 @@
     margin: 0;
     padding: 0;
     font-family: 'IBM Plex Sans', sans-serif;
+    background-color: var(--cool-grey-70);
   }
 
   .centered-content {
@@ -78,10 +80,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: var(--true-grey-10);
+  }
+
+  .line {
+    border: 0;
+    height: 1px;
+    background-color: var(--cool-grey-10);
+    width: 70vw;
+    margin: 7px auto;
   }
 
   .quote {
-    font-family: 'IBM Plex Sans', sans-serif;
     font-style: italic;
     font-size: 1.2rem;
     margin: 20px 0;
@@ -90,5 +100,6 @@
   .copyright {
     font-size: 0.3rem;
     margin-top: 20px;
+    color: var(--cool-grey-10);
   }
 </style>
