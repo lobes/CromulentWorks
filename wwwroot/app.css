@@ -36,7 +36,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'IBM Plex Sans', sans-serif;
-    background-color: var(--cool-grey-90);
+    background-color: var(--warm-grey-90);
 }
 .centered-content {
     display: flex;
